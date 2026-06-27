@@ -2,11 +2,11 @@ package com.itsqmet.gestionlibreria.controller;
 
 import com.itsqmet.gestionlibreria.entity.Autor;
 import com.itsqmet.gestionlibreria.service.AutorService;
-import jakarta.validation.Valid; // Importante
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult; // Importante
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
